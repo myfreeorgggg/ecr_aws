@@ -29,7 +29,7 @@ name: Deploy to Amazon ECS
 on:
   push:
     branches:
-      - circleci-project-setup
+      - github-action
 
 env:
   AWS_REGION: us-east-2                  # set this to your preferred AWS region, e.g. us-west-1
